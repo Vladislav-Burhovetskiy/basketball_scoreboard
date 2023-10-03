@@ -1,0 +1,75 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  text-shadow: 5px 5px 5px #080001;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1b244a;
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.info-tablo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.number {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 90px;
+  color: #f94f6d;
+  background-color: #080001;
+  padding: 15px 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #c4b5fd;
+  margin: 10px 0 20px 0;
+  width: 150px;
+}
+
+button {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid #9aabd8;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #080001;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+button:active {
+  border: none;
+  outline: none;
+}
+
+#new-game-btn {
+  height: 40px;
+  padding: 10px 20px 50px;
+  background-color: #f94f6d;
+  border: 1px solid #080001;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #080001;
+}
+
+#new-game-btn:hover {
+  opacity: 100%;
+  box-shadow: 2px 2px 5px #c4b5fd;
+}
